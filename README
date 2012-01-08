@@ -1,6 +1,12 @@
 Custom serialization using Jackson
 ==================================
 
-Jackson JSON provides many different ways to custom the serialization process of a class, most of these methods utilise annotations on the classes themselves. I recently had the requirement to customize the serialization of a class when I had no access to change the source code of that class. That meant that using annotations wasn't an option and I had to find another way.
+Jackson JSON provides many different ways to custom the serialization
+process of a class, most of these methods utilise annotations on the
+classes themselves. I recently had the requirement to customize the
+serialization of a class when I had no access to change the source
+code of that class. That meant that using annotations wasn't an
+option and I had to find another way.
 
-This project provides the example code used in a blog entry which demonstrates how to customize the serialization process in Jackson.
+This project provides the example code used in a blog entry which
+demonstrates how to customize the serialization process in Jackson.
