@@ -10,3 +10,5 @@ option and I had to find another way.
 
 This project provides the example code used in a blog entry which
 demonstrates how to customize the serialization process in Jackson.
+
+http://atomicityltd.com/blog/jackson-custom-serialization
