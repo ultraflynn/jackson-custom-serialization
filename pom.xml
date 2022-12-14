@@ -7,17 +7,21 @@
     <groupId>JacksonBlogEntry</groupId>
     <artifactId>JacksonBlogEntry</artifactId>
     <version>1.0</version>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-mapper-asl</artifactId>
-            <version>1.9.2</version>
+            <version>1.9.13</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>10.0.1</version>
+            <version>31.1-jre</version>
         </dependency>
     </dependencies>
 </project>
